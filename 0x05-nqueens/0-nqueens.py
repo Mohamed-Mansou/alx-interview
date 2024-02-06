@@ -1,3 +1,7 @@
+#!/usr/bin/python3
+"""
+Solution to the nqueens problem
+"""
 import sys
 
 def is_valid(board, row, col):
