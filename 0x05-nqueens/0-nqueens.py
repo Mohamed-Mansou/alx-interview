@@ -66,9 +66,3 @@ if __name__ == "__main__":
     except ValueError:
         print("N must be a number")
         sys.exit(1)
-
-   board = [-1] * n  # Initialize board with -1 to indicate empty positions
-   solve_n_queens(board, 0, n)
-
-if __name__ == "__main__":
-   main()
